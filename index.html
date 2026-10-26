@@ -1,11 +1,95 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Meri Pehli Website</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080816" />
+  <title>NEBULA — Explore the Future</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>Yeh meri pehli website hai.</p>
+  <nav class="navbar">
+    <a class="logo" href="#">N<span>.</span></a>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="https://github.com" target="_blank" rel="noreferrer">GitHub ↗</a>
+    </div>
+    <a class="nav-btn" href="#about">Explore More</a>
+  </nav>
+
+  <main id="home">
+    <section class="hero">
+      <div id="scene" aria-label="Interactive 3D animated sphere"></div>
+
+      <div class="hero-content">
+        <div class="eyebrow">
+          <span class="status-dot"></span>
+          THE FUTURE IS THREE-DIMENSIONAL
+        </div>
+
+        <h1>Beyond the<br />ordinary<span>.</span></h1>
+
+        <p>
+          Enter a new dimension of digital experiences.
+          Built with creativity, powered by code.
+        </p>
+
+        <div class="hero-actions">
+          <a class="primary-btn" href="#about">Discover More ↗</a>
+          <a class="secondary-btn"
+             href="https://github.com"
+             target="_blank" rel="noreferrer">
+            <span>⌘</span> View GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="coordinates">
+        <span>FIG. 001</span>
+        <span>INTERACTIVE DIGITAL SPACE</span>
+      </div>
+
+      <div class="scroll-indicator">
+        <span></span> SCROLL TO EXPLORE
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="section-label">01 / THE EXPERIENCE</div>
+      <h2>Ideas without<br />a <span>dimension.</span></h2>
+      <p>
+        NEBULA is a creative web experiment combining immersive 3D
+        graphics, smooth interactions, and minimalist design.
+      </p>
+
+      <div class="features">
+        <article class="feature-card">
+          <span class="feature-number">01</span>
+          <h3>Immersive 3D</h3>
+          <p>Explore a dynamic 3D world rendered directly in your browser.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-number">02</span>
+          <h3>Fluid Motion</h3>
+          <p>Subtle animations and interactive movement bring the page to life.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-number">03</span>
+          <h3>Built for Web</h3>
+          <p>A responsive experience made with modern web technologies.</p>
+        </article>
+      </div>
+    </section>
+
+    <footer>
+      <a class="logo" href="#">N<span>.</span></a>
+      <p>Designed beyond the ordinary.</p>
+      <span>© 2026 NEBULA</span>
+    </footer>
+  </main>
+
+  <script type="module" src="script.js"></script>
 </body>
 </html>
